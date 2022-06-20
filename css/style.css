@@ -81,16 +81,16 @@ aside {
 }
 
 nav {
-  height: 100%;
   position: relative;
 }
 
 .aside_ul {
   position: absolute;
-  top: 25%;
-  left: 0;
-  right: 0;
-  background-color: aqua;
+  top: 50%;
+  left: 50%;
+  transform: translateY(59%) translateX(-45%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
+
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -100,7 +100,7 @@ nav {
 .aside_ul_li {
   font-size: clamp(35px,1vw,20px);
   font-weight: 900;
-  display: block;
+  
   margin-bottom: 55px;
   
 }
@@ -138,7 +138,8 @@ margin-bottom: 0;
   margin-bottom: 125px;
 }
 .concept_txt p {
-  font-size: clamp(40px,1vw,15px);
+  font-size: clamp(30px,1vw,15px);
+  line-height: 1.5;
   margin-bottom: 65px;
   font-weight: bold;
   display: inline-block;
@@ -175,9 +176,9 @@ margin-bottom: 0;
 .menu_btn {
   display: block;
   margin: 0 auto;
-  font-size: clamp(45px,1vw,20px);
+  font-size: clamp(30px,1vw,20px);
   background-color: #449C0E;
-  padding: 25px  120px;
+  padding: 25px  100px;
   border-radius: 50px;
   border: none;
   margin-bottom: 125px;
@@ -200,7 +201,7 @@ l.news_txt {
 
 
 .news_txt h2 {
-  font-size: clamp(50px,1vw,25px);
+  font-size: clamp(40px,1vw,25px);
   font-family: bold;
   margin-bottom: 32px;
   text-align: center;
@@ -210,7 +211,7 @@ l.news_txt {
 
 .news_txt p {
   width: 56%;
-  font-size: clamp(35px,1vw,15px);
+  font-size: clamp(30px,1vw,15px);
   display: flex;
   justify-content: center;
   border: 3px solid #EFDC34;
@@ -222,7 +223,7 @@ l.news_txt {
 
 
 .news_ul_li {
-  font-size: clamp(35px,1vh,17px);
+  font-size: clamp(30px,1vh,17px);
   font-weight: bold;
   list-style-type:disc;
   text-align: left;
@@ -243,7 +244,7 @@ l.news_txt {
 
 /* access------------------------- */
 #access {
-  margin-bottom: 125px;;
+  margin-bottom: 125px;
 }
 .map {
   width: 1000px;
@@ -258,7 +259,7 @@ l.news_txt {
 }
 
 table {
-  font-size: 30px;
+  font-size: 25px;
   width: 70%;
   margin: 0 auto;
   border:2px solid #449C0E;
@@ -282,7 +283,7 @@ table {
   justify-content: center;
   align-items: center;
   color: #333;
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   height: 160px;
   background-color: #EFDC34;
