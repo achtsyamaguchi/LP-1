@@ -64,13 +64,13 @@ aside {
 }
 
 .aside_title {
-  font-size: clamp(45px,1vw,20px);
+  font-size: clamp(60px,1vw,20px);
   font-weight: bold;
 }
 
 
 .aside_img {
-  width: 198px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -88,12 +88,8 @@ nav {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateY(59%) translateX(-45%);
+  transform: translateY(31%) translateX(-45%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 
 
@@ -138,7 +134,7 @@ margin-bottom: 0;
   margin-bottom: 125px;
 }
 .concept_txt p {
-  font-size: clamp(30px,1vw,15px);
+  font-size: clamp(25px,1vw,15px);
   line-height: 1.5;
   margin-bottom: 65px;
   font-weight: bold;
@@ -195,23 +191,17 @@ margin-bottom: 0;
 }
 
 
-l.news_txt {
-  background-color: antiquewhite;
-}
-
-
 .news_txt h2 {
-  font-size: clamp(40px,1vw,25px);
+  font-size: clamp(30px,1vw,25px);
   font-family: bold;
   margin-bottom: 32px;
   text-align: center;
 }
 
 
-
 .news_txt p {
   width: 56%;
-  font-size: clamp(30px,1vw,15px);
+  font-size: clamp(25px,1vw,15px);
   display: flex;
   justify-content: center;
   border: 3px solid #EFDC34;
@@ -223,7 +213,7 @@ l.news_txt {
 
 
 .news_ul_li {
-  font-size: clamp(30px,1vh,17px);
+  font-size: clamp(25px,1vh,17px);
   font-weight: bold;
   list-style-type:disc;
   text-align: left;
@@ -239,7 +229,9 @@ l.news_txt {
 
 .news_inner {
   display: flex;
+  justify-content: center;
   align-items: center;
+
 }
 
 /* access------------------------- */
@@ -283,7 +275,7 @@ table {
   justify-content: center;
   align-items: center;
   color: #333;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   height: 160px;
   background-color: #EFDC34;
